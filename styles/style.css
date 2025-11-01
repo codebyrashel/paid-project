@@ -830,7 +830,7 @@ body {
   height: 459px;
   margin: 0 auto;
   border-radius: 8px;
-  background-image: url("/images/veggieBackgroun.png");
+  background-image: url("../images/veggieBackgroun.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
