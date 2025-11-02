@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 body {
@@ -73,6 +73,10 @@ body {
 }
 
 /* ---------- Hamburger icon ---------- */
+.hamburger__border {
+  border: 2px solid #06c167;
+  padding: 8px;
+}
 .hamburger {
   display: none;
   flex-direction: column;
@@ -137,7 +141,6 @@ body {
   color: #06c167;
 }
 
-
 /* =========================================================
    Main Container
 ========================================================= */
@@ -152,7 +155,7 @@ body {
    Hero Section
 ========================================================= */
 .hero {
-  background-color: #F3FCF7;
+  background-color: #f3fcf7;
   position: relative;
   height: 663px;
 }
@@ -190,7 +193,7 @@ body {
 }
 
 .btn-primary {
-  background-color: #06C167;
+  background-color: #06c167;
   color: #fff;
   border: none;
   padding: 0.9rem 2rem;
@@ -253,7 +256,7 @@ body {
 }
 
 .rating-badge .stars {
-  color: #06C167;
+  color: #06c167;
 }
 
 .review-badge {
@@ -310,9 +313,6 @@ body {
   object-fit: contain;
 }
 
-
-
-
 /* =========================================================
   Features / Services Section
 ========================================================= */
@@ -333,7 +333,6 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 
 .feature-box {
   display: flex;
@@ -371,7 +370,6 @@ body {
   font-size: 0.9rem;
   color: #666;
 }
-
 
 /* =========================================================
    Benefit / Healthy Food Section
@@ -467,7 +465,6 @@ body {
   height: 20px;
 }
 
-
 /* =========================================================
   Our Star Section
 ========================================================= */
@@ -532,7 +529,7 @@ body {
 .stat h2 {
   font-size: 2rem;
   font-weight: 700;
-  color: #06C167;
+  color: #06c167;
   margin-bottom: 0.3rem;
 }
 
@@ -564,8 +561,6 @@ body {
   height: 513px;
   object-fit: cover;
 }
-
-
 
 /* =========================================================
   Variety Of Foods 4‑card grid
@@ -636,7 +631,7 @@ body {
   justify-content: space-around;
   align-items: flex-start;
   padding: 2rem;
-  background-color: #F3FCF7;
+  background-color: #f3fcf7;
 }
 
 .food-right h2 {
@@ -651,11 +646,10 @@ body {
   margin-bottom: 0.9rem;
 }
 
-
 .discover-link {
   display: flex;
   align-items: center;
-  color: #06C167;
+  color: #06c167;
   background-color: #e6f9f0;
   text-decoration: none;
   font-weight: 500;
@@ -669,11 +663,9 @@ body {
 }
 
 .discover-link:hover {
-  background-color: #06C167;
+  background-color: #06c167;
   color: #fff;
 }
-
-
 
 /* =========================================================
    Most Popular Product Section
@@ -696,7 +688,6 @@ body {
   font-size: 0.95rem;
   color: #111;
   font-weight: 500;
-
 }
 
 .section-title {
@@ -732,11 +723,11 @@ body {
 }
 
 .product-card.active {
-  border-color: #06C167;
+  border-color: #06c167;
 }
 
 .product-card:hover {
-  border-color: #06C167;
+  border-color: #06c167;
 }
 
 .products-grid:hover .product-card.active {
@@ -744,7 +735,7 @@ body {
 }
 
 .products-grid:hover .product-card.active:hover {
-  border-color: #06C167 !important;
+  border-color: #06c167 !important;
 }
 
 .product-image {
@@ -794,7 +785,7 @@ body {
 }
 
 .new-price {
-  color: #06C167;
+  color: #06c167;
   font-weight: 700;
   font-size: 1rem;
 }
@@ -803,8 +794,8 @@ body {
   width: 177px;
   height: 57px;
   background-color: #fff;
-  color: #06C167;
-  border: 2px solid #06C167;
+  color: #06c167;
+  border: 2px solid #06c167;
   border-radius: 4px;
   font-size: 1rem;
   font-weight: 500;
@@ -813,7 +804,7 @@ body {
 }
 
 .buy-btn:hover {
-  background-color: #06C167;
+  background-color: #06c167;
   color: #fff;
 }
 
@@ -843,7 +834,6 @@ body {
   position: relative;
 }
 
-
 .banner-title {
   position: relative;
   z-index: 2;
@@ -859,7 +849,7 @@ body {
   z-index: 2;
   width: 210px;
   height: 79px;
-  background-color: #06C167;
+  background-color: #06c167;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -873,8 +863,6 @@ body {
   background-color: #049a55;
 }
 
-
-
 /* =========================================================
    Footer
 ========================================================= */
@@ -883,7 +871,7 @@ body {
   background-color: #ffffff;
   padding: 80px 0 40px;
   color: #111;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .footer-wrapper {
@@ -901,7 +889,7 @@ body {
 }
 
 .footer-logo {
-  color: #06C167;
+  color: #06c167;
   font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 1rem;
@@ -928,7 +916,8 @@ body {
 }
 
 .footer-socials a img:hover {
-  filter: grayscale(0) brightness(0) saturate(100%) invert(33%) sepia(80%) saturate(600%) hue-rotate(86deg) brightness(95%) contrast(95%);
+  filter: grayscale(0) brightness(0) saturate(100%) invert(33%) sepia(80%)
+    saturate(600%) hue-rotate(86deg) brightness(95%) contrast(95%);
   transform: scale(1.1);
 }
 
@@ -955,7 +944,7 @@ body {
 }
 
 .footer-col ul li a:hover {
-  color: #06C167;
+  color: #06c167;
 }
 
 .get-touch .subscribe-form {
@@ -975,7 +964,7 @@ body {
 }
 
 .get-touch button {
-  background-color: #06C167;
+  background-color: #06c167;
   color: #fff;
   border: none;
   padding: 0.8rem 1.4rem;
